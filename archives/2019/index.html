@@ -6,20 +6,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://bear01github.io">
-  <title>vue+vuex+es6前端笔记 | bear</title>
+  <title>Archives: 2019 | bear</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="bear的个人博客，欢迎大家访问">
-<meta name="keywords" content="前端">
-<meta property="og:type" content="article">
-<meta property="og:title" content="vue+vuex+es6前端笔记">
-<meta property="og:url" content="http://bear01github.io/2018/08/01/前端笔记/index.html">
+  <meta name="description" content="bear正在记录生活">
+<meta property="og:type" content="website">
+<meta property="og:title" content="bear">
+<meta property="og:url" content="http://bear01github.io/archives/2019/index.html">
 <meta property="og:site_name" content="bear">
-<meta property="og:description" content="bear的个人博客，欢迎大家访问">
+<meta property="og:description" content="bear正在记录生活">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-06T16:23:33.529Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vue+vuex+es6前端笔记">
-<meta name="twitter:description" content="bear的个人博客，欢迎大家访问">
+<meta name="twitter:title" content="bear">
+<meta name="twitter:description" content="bear正在记录生活">
   
     <link rel="alternative" href="/atom.xml" title="bear" type="application/atom+xml">
   
@@ -171,230 +169,60 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-前端笔记" class="article article-type-post " itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      vue+vuex+es6前端笔记
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2019/01/01/2019日常随笔/" class="archive-article-date">
+  	<time datetime="2018-12-31T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-01</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2019/01/01/2019日常随笔/">日记本---2018</a>
     </h1>
   
 
-        
-        <a href="/2018/08/01/前端笔记/" class="archive-article-date">
-  	<time datetime="2018-08-01T11:30:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-01</time>
-</a>
-         
-        <span class="archive-article-date">
-           阅读量 <span id="busuanzi_value_page_pv"></span>
-        </span>
-      
-        
-      </header>
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="article-info info-on-right">
           
-          
-            <blockquote>
-<p>哲学家与疯子的区别在于：一个只是在想，一个真的去做了。————高铭《天才在左 疯子在右》</p>
-</blockquote>
-<h2 id="export-default"><a href="#export-default" class="headerlink" title="export default"></a>export default</h2><p>用于导出常量、函数、文件、模块等<br>在其它文件或模块中通过import+(常量 | 函数 | 文件 | 模块)名的方式，将其导入，以便能够对其进行使用<br>在一个文件或模块中，export、import可以有多个，export default仅有一个<br><a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import &#123;mapState, mapActions&#125; from <span class="string">'vuex'</span></span><br><span class="line"><span class="built_in">export</span> default &#123;</span><br><span class="line">  name: <span class="string">' '</span>,</span><br><span class="line">  <span class="function"><span class="title">data</span></span> () &#123; </span><br><span class="line">  &#125;,</span><br><span class="line">  computed: &#123;</span><br><span class="line">    ...mapState(<span class="string">'aboutManage'</span>, &#123;</span><br><span class="line">      aboutDetail: state =&gt; state.aboutDetail</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    ...mapActions(<span class="string">'aboutManage'</span>, [<span class="string">'getAboutDetailX'</span>]),</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="vuex"><a href="#vuex" class="headerlink" title="vuex"></a>vuex</h2><p>Actions<br>Actions也可以用于改变状态，不过是通过触发mutation实现的，重要的是可以包含异步操作。其辅助函数是mapActions与mapMutations类似，也是绑定在组件的methods上的。如果选择直接触发的话，使用this.$store.dispatch(actionName)方法。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import &#123;mapActions&#125; from <span class="string">'vuex'</span></span><br><span class="line"> </span><br><span class="line">//我是一个组件</span><br><span class="line"><span class="built_in">export</span> default &#123;</span><br><span class="line">  methods: mapActions([</span><br><span class="line">    <span class="string">'actionName'</span>,</span><br><span class="line">  ])</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Mutations：<br>Mutations的中文意思是“变化”，利用它可以更改状态，本质就是用来处理数据的函数，其接收唯一参数值state。store.commit(mutationName)是用来触发一个mutation的方法。需要记住的是，定义的mutation必须是同步函数，否则devtool中的数据将可能出现问题，使状态改变变得难以跟踪。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">const mutations = &#123;</span><br><span class="line">  mutationName(state) &#123;</span><br><span class="line">    //在这里改变state中的数据</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>在组件中触发：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//我是一个组件</span><br><span class="line"><span class="built_in">export</span> default &#123;</span><br><span class="line">  methods: &#123;</span><br><span class="line">    <span class="function"><span class="title">handleClick</span></span>() &#123;</span><br><span class="line">      this.<span class="variable">$store</span>.commit(<span class="string">'mutationName'</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>或者使用辅助函数mapMutations直接将触发函数映射到methods上，这样就能在元素事件绑定上直接使用了。如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import &#123;mapMutations&#125; from <span class="string">'vuex'</span></span><br><span class="line"> </span><br><span class="line">//我是一个组件</span><br><span class="line"><span class="built_in">export</span> default &#123;</span><br><span class="line">  methods: mapMutations([</span><br><span class="line">    <span class="string">'mutationName'</span></span><br><span class="line">  ])</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>State ：<br>负责存储整个应用的状态数据，一般需要在使用的时候在跟节点注入store对象，后期就可以使用this.$store.state直接获取状态后续在组件中使用的过程中，如果想要获取对应的状态你就可以直接使用this.$store.state获取，当然，也可以利用vuex提供的mapState辅助函数将state映射到计算属性中去，如</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">import &#123;mapState&#125; from <span class="string">'vuex'</span></span><br><span class="line"><span class="built_in">export</span> default &#123;</span><br><span class="line">  computed: mapState(&#123;</span><br><span class="line">    count: state =&gt; state.count</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>这样直接就可以在组件中直接使用了</p>
-<h2 id="vue中method，computed，watch有什么区别"><a href="#vue中method，computed，watch有什么区别" class="headerlink" title="vue中method，computed，watch有什么区别"></a>vue中method，computed，watch有什么区别</h2><p>通俗来讲，<br>computed是在HTML DOM加载后马上执行的，如赋值；<br>而methods则必须要有一定的触发条件才能执行，如点击事件；<br>watch呢？它用于观察Vue实例上的数据变动。对应一个对象，键是观察表达式，值是对应回调。值也可以是方法名，或者是对象，包含选项。<br>所以他们的执行顺序为：默认加载的时候先computed再watch，不执行methods；等触发某一事件后，则是：先methods再watch。</p>
-
-          
-        
-
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>喜欢就打个赏呗<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/alipay.jpg">
-                      <span class="reward-type">支付宝</span>
-                    </div>
-                    
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/winxin.jpg">
-                      <span class="reward-type">微信</span>
-                    </div>
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">前端</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">记录生活</a>
         		</li>
       		
 		</ul>
 	</div>
 
-      
+          
 
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACOUlEQVR42u3a0WrDMAwF0P7/T3cw9jAYSa6kdLT2yVMJmeuTgiZLejzi6/l9/f78+875M3+fPFrn/PkbLgwMjI9lPE+vOSOHJa/jcAUMDIwNGNUge77o0Ss4v3P++i72jIGBgdEinSPz4I6BgYFRDbhJqE1eQX4fAwMDIz/E5oykJtYL5TecxTEwMD6Q0WsM/M/nl/c3MDAw3p7xLF7VpmYednv7+VkBAwNjaUZeuJ8kdtVjar7mI+k2YGBgfDjjriNl0oxMks7eYAcGBsYOjF6onRTUJqNjNyeFGBgYb8+4KxHMxyaqiWPhSQwMjEUZkzA6OUX2BiwwMDB2Zrxi8KLaYBgV5jAwMJZmJMWvu0Jwr9B2/iQGBsYOjGQTeYjsHXSTIBsdYjEwMBZl5AE333oVUG1wjv5vYGBgfCAjD5rVFmNvzCs5pl50NjAwMDZgJAX6eduy+l0XK2NgYGzAqB5B84CYl9vyNsBhwMXAwFiUkZ9x5+ldb4VqGoqBgbEqIx+byA+rr2gzXHwXBgbGooy8WN8bz8rTynx04+J3wMDAWJSRBNYqtVeY66WSGBgYazN6AbQ6ilGe+CgOXmBgYKzNeBavfIvz4l3+txgYGGszesFuXtDPw31vHAQDA2M9xjzI9gpzybG5sAcMDIwNGHmS12t5RiX+QWjGwMDAqBbaeplp/rJGARcDA2MbRv5lvfHWvDmKgYGxD2OS8OWjFb01o/sYGBhLM3pFtHkYTZ4cJYsYGBgrML4AkKhgvpWoVe0AAAAASUVORK5CYII=" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2018/08/28/2018-8-24/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          中国国际智能产业博览会（智博会）
-        
-      </div>
-    </a>
   
   
-    <a href="/2018/07/29/今天星期7/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">今天星期日不上班</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-        <div class="toc-container tooltip-left">
-            <i class="icon-font icon-category"></i>
-            <div class="tooltip tooltip-east">
-                <span class="tooltip-item">
-                </span>
-                <span class="tooltip-content">
-                    <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#export-default"><span class="toc-number">1.</span> <span class="toc-text">export default</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vuex"><span class="toc-number">2.</span> <span class="toc-text">vuex</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vue中method，computed，watch有什么区别"><span class="toc-number">3.</span> <span class="toc-text">vue中method，computed，watch有什么区别</span></a></li></ol>
-                    </div>
-                </span>
-            </div>
-        </div>
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-  <div id="SOHUCS" sid="前端笔记"></div> 
-<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js"></script>
-<script type="text/javascript">
-    window.changyan.api.config({
-        appid: "cytJiH2qa",
-        conf: "60813bf3bba40a97aae0e1ac8418b246"
-    });
-</script>
-
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -420,8 +248,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
