@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://bear01github.io">
-  <title>三步完成文章上传 | bear</title>
+  <title>Git 与SVN | bear</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="参观智博会的一些感想">
+  <meta name="description" content="Git 和 SVN 孰优孰好？">
 <meta name="keywords" content="学习">
 <meta property="og:type" content="article">
-<meta property="og:title" content="三步完成文章上传">
-<meta property="og:url" content="http://bear01github.io/2018/07/25/hello-world/index.html">
+<meta property="og:title" content="Git 与SVN">
+<meta property="og:url" content="http://bear01github.io/2019/09/13/git与svn/index.html">
 <meta property="og:site_name" content="bear">
-<meta property="og:description" content="参观智博会的一些感想">
+<meta property="og:description" content="Git 和 SVN 孰优孰好？">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-06T16:24:59.272Z">
+<meta property="og:updated_time" content="2018-11-22T16:31:35.670Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="三步完成文章上传">
-<meta name="twitter:description" content="参观智博会的一些感想">
+<meta name="twitter:title" content="Git 与SVN">
+<meta name="twitter:description" content="Git 和 SVN 孰优孰好？">
   
     <link rel="alternative" href="/atom.xml" title="bear" type="application/atom+xml">
   
@@ -171,20 +171,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-git与svn" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      三步完成文章上传
+      Git 与SVN
     </h1>
   
 
         
-        <a href="/2018/07/25/hello-world/" class="archive-article-date">
-  	<time datetime="2018-07-25T10:30:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-25</time>
+        <a href="/2019/09/13/git与svn/" class="archive-article-date">
+  	<time datetime="2019-09-13T02:37:07.803Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-13</time>
 </a>
          
         <span class="archive-article-date">
@@ -199,15 +199,137 @@
       
           
           
-            <p>Welcome to <a href="https://www.bear9596.club/" target="_blank" rel="noopener">bear个人网站</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using, you can find the answer in <a href="https://www.bear9596.club" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/bear01/bear01.github.io" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="如何上传文章"><a href="#如何上传文章" class="headerlink" title="如何上传文章"></a>如何上传文章</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h3 id="一-Git-和-SVN-孰优孰好？"><a href="#一-Git-和-SVN-孰优孰好？" class="headerlink" title="一 Git 和 SVN 孰优孰好？"></a>一 Git 和 SVN 孰优孰好？</h3><p>Git是分布式的，SVN是集中式的</p>
+<p>这是两者最大的区别。若能掌握这个概念，两者区别基本搞懂大半。因为 Git 是分布式的，所以 Git 支持离线工作，在本地可以进行很多操作，包括接下来将要重磅推出的分支功能。而 SVN 必须联网才能正常工作。</p>
+<p>Git复杂概念多，SVN简单易上手</p>
+<p>所有同时掌握 Git 和 SVN 的开发者都必须承认，Git 的命令实在太多了，日常工作需要掌握add,commit,status,fetch,push,rebase等，若要熟练掌握，还必须掌握rebase和merge的区别，fetch和pull的区别等，除此之外，还有cherry-pick，submodule，stash等功能，仅是这些名词听着都很绕。</p>
+<p>在易用性这方面，SVN 会好得多，简单易上手，对新手很友好。但是从另外一方面看，Git 命令多意味着功能多，若我们能掌握大部分 Git 的功能，体会到其中的奥妙，会发现再也回不去 SVN 的时代了。</p>
+<p>Git分支廉价，SVN分支昂贵</p>
+<p>在版本管理里，分支是很常使用的功能。在发布版本前，需要发布分支，进行大需求开发，需要 feature 分支，大团队还会有开发分支，稳定分支等。在大团队开发过程中，常常存在创建分支，切换分支的需求。</p>
+<p>Git 分支是指针指向某次提交，而 SVN 分支是拷贝的目录。这个特性使 Git 的分支切换非常迅速，且创建成本非常低。</p>
+<p>而且 Git 有本地分支，SVN 无本地分支。在实际开发过程中，经常会遇到有些代码没写完，但是需紧急处理其他问题，若我们使用 Git，便可以创建本地分支存储没写完的代码，待问题处理完后，再回到本地分支继续完成代码</p>
+<h3 id="二-git核心概率"><a href="#二-git核心概率" class="headerlink" title="二 git核心概率"></a>二 git核心概率</h3><p>Git 最核心的一个概念就是工作流。</p>
+<p>工作区(Workspace)是电脑中实际的目录。<br>暂存区(Index)类似于缓存区域，临时保存你的改动。<br>仓库区(Repository)，分为本地仓库和远程仓库。<br>从 SVN 切换到 Git，最难理解并且最不能理解的是暂存区和本地仓库。熟练使用 Git 后，会发现这简直是神设计，由于这两者的存在，使许多工作变得易管理。</p>
+<p>通常提交代码分为几步：</p>
+<p><strong>git add</strong>从工作区提交到暂存区<br><strong>git commit</strong>从暂存区提交到本地仓库<br><strong>git push</strong>或git svn dcommit从本地仓库提交到远程仓库<br>一般来说，记住以下命令，便可进行日常工作了（图片来源于网络）：</p>
+<p>对比 Git 与 SVN，这篇讲的很易懂<br>[ Git命令 ]</p>
+<h3 id="三-Git-SVN常用命令"><a href="#三-Git-SVN常用命令" class="headerlink" title="三 Git-SVN常用命令"></a>三 Git-SVN常用命令</h3><p>若服务器使用的 SVN，但是本地想要体验 Git 的本地分支，离线操作等功能，可以使用 Git-SVN功能。</p>
+<p>下载一个 SVN 项目和它的整个代码历史，并初始化为 Git 代码库</p>
+<p><code>$ git svn clone -s [repository]</code></p>
+<p>查看当前版本库情况</p>
+<p><code>$ git svn info</code></p>
+<p>取回远程仓库所有分支的变化</p>
+<p><code>$ git svn fetch</code></p>
+<p>取回远程仓库当前分支的变化，并与本地分支变基合并</p>
+<p><code>$ git svn rebase</code></p>
+<p>上传当前分支的本地仓库到远程仓库</p>
+<p><code>$ git svn dcommit</code></p>
+<p>拉取新分支，并提交到远程仓库</p>
+<p><code>$ svn copy [remote_branch][new_remote_branch] -m [message]</code></p>
+<p>创建远程分支对应的本地分支</p>
+<p><code>$ git checkout -b [local_branch][remote_branch]</code></p>
+<h3 id="四-初始化"><a href="#四-初始化" class="headerlink" title="四 初始化"></a>四 初始化</h3><p>从本节开始，除特殊说明，以下命令均适用于 Git 与 Git-SVN。</p>
+<p>在当前目录新建一个Git代码库</p>
+<p><code>$ git init</code></p>
+<p>下载一个项目和它的整个代码历史 [Git only]</p>
+<p><code>$ git clone [url</code></p>
+<h3 id="五-配置"><a href="#五-配置" class="headerlink" title="五 配置"></a>五 配置</h3><p>列举所有配置</p>
+<p><code>$ git config -l</code></p>
+<p>为命令配置别名</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global alias.co checkout</span><br><span class="line">$ git config --global alias.ci commit</span><br><span class="line">$ git config --global alias.st status</span><br><span class="line">$ git config --global alias.br branch</span><br></pre></td></tr></table></figure>
+<p>设置提交代码时的用户信息</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config [--global] user.name &quot;[name]&quot;</span><br><span class="line">$ git config [--global] user.email &quot;[email address]&quot;</span><br></pre></td></tr></table></figure>
+<p>Git 用户的配置文件位于 ~/.gitconfig</p>
+<p>Git 单个仓库的配置文件位于 ~/$PROJECT_PATH/.git/config</p>
+<h3 id="六-增删文件"><a href="#六-增删文件" class="headerlink" title="六 增删文件"></a>六 增删文件</h3><p>添加当前目录的所有文件到暂存区</p>
+<p><code>$ git add .</code></p>
+<p>添加指定文件到暂存区</p>
+<p><code>$ git add &lt;file1&gt; &lt;file2&gt; ...</code></p>
+<p>添加指定目录到暂存区，包括其子目录</p>
+<p><code>$ git add &lt;dir&gt;</code></p>
+<p>删除工作区文件，并且将这次删除放入暂存区</p>
+<p><code>$ git rm [file1][file2] ...</code></p>
+<p>停止追踪指定文件，但该文件会保留在工作区</p>
+<p><code>$ git rm --cached [file]</code></p>
+<p>改名文件，并且将这个改名放入暂存区</p>
+<p><code>$ git mv [file-original][file-renamed]</code><br>把文件名 file1 添加到 .gitignore 文件里，Git 会停止跟踪 file1 的状态。</p>
+<h3 id="七-分支"><a href="#七-分支" class="headerlink" title="七 分支"></a>七 分支</h3><p>列出所有本地分支</p>
+<p><code>$ git branch</code></p>
+<p>列出所有本地分支和远程分支</p>
+<p><code>$ git branch -a</code></p>
+<p>新建一个分支，但依然停留在当前分支</p>
+<p><code>$ git branch [branch-name]</code></p>
+<p>新建一个分支，并切换到该分支</p>
+<p><code>$ git checkout -b [new_branch][remote-branch]</code></p>
+<p>切换到指定分支，并更新工作区</p>
+<p><code>$ git checkout [branch-name]</code></p>
+<p>合并指定分支到当前分支</p>
+<p><code>$ git merge [branch]</code></p>
+<p>选择一个 commit，合并进当前分支</p>
+<p><code>$ git cherry-pick [commit]</code></p>
+<p>删除本地分支，-D 参数强制删除分支</p>
+<p><code>$ git branch -d [branch-name]</code></p>
+<p>删除远程分支</p>
+<p><code>$ git push [remote] :[remote-branch]</code></p>
+<p>八 提交</p>
+<p>提交暂存区到仓库区</p>
+<p><code>$ git commit -m [message]</code></p>
+<p>提交工作区与暂存区的变化直接到仓库区</p>
+<p><code>$ git commit -a</code></p>
+<p>提交时显示所有 diff 信息</p>
+<p><code>$ git commit -v</code></p>
+<p>提交暂存区修改到仓库区，合并到上次修改，并修改上次的提交信息</p>
+<p><code>$ git commit --amend -m [message]</code></p>
+<p>上传本地指定分支到远程仓库</p>
+<p><code>$ git push [remote][remote-branch]</code></p>
+<h3 id="九-拉取"><a href="#九-拉取" class="headerlink" title="九 拉取"></a>九 拉取</h3><p>下载远程仓库的所有变动 (Git only)</p>
+<p><code>$ git fetch [remote]</code></p>
+<p>显示所有远程仓库 (Git only)</p>
+<p><code>$ git remote -v</code></p>
+<p>显示某个远程仓库的信息 (Git only)</p>
+<p><code>$ git remote show [remote]</code></p>
+<p>增加一个新的远程仓库，并命名 (Git only)</p>
+<p><code>$ git remote add [remote-name][url]</code></p>
+<p>取回远程仓库的变化，并与本地分支合并，(Git only), 若使用 Git-SVN，请查看第三节</p>
+<p><code>$ git pull [remote][branch]</code></p>
+<p>取回远程仓库的变化，并与本地分支变基合并，(Git only), 若使用 Git-SVN，请查看第三节</p>
+<p><code>$ git pull --rebase [remote][branch]</code></p>
+<p>十 撤销</p>
+<p>恢复暂存区的指定文件到工作区</p>
+<p><code>$ git checkout [file]</code></p>
+<p>恢复暂存区当前目录的所有文件到工作区</p>
+<p><code>$ git checkout .</code></p>
+<p>恢复工作区到指定 commit</p>
+<p><code>$ git checkout [commit]</code></p>
+<p>重置暂存区的指定文件，与上一次 commit 保持一致，但工作区不变</p>
+<p><code>$ git reset [file]</code></p>
+<p>重置暂存区与工作区，与上一次 commit 保持一致</p>
+<p><code>$ git reset --hard</code></p>
+<p>重置当前分支的指针为指定 commit，同时重置暂存区，但工作区不变</p>
+<p><code>$ git reset [commit]</code></p>
+<p>重置当前分支的HEAD为指定 commit，同时重置暂存区和工作区，与指定 commit 一致</p>
+<p><code>$ git reset --hard [commit]</code></p>
+<p>新建一个 commit，用于撤销指定 commit</p>
+<p><code>$ git revert [commit]</code></p>
+<p>将未提交的变化放在储藏区</p>
+<p><code>$ git stash</code></p>
+<p>将储藏区的内容恢复到当前工作区</p>
+<p><code>$ git stash pop</code></p>
+<h3 id="十一-查询"><a href="#十一-查询" class="headerlink" title="十一 查询"></a>十一 查询</h3><p>查看工作区文件修改状态</p>
+<p><code>$ git status</code></p>
+<p>查看工作区文件修改具体内容</p>
+<p><code>$ git diff [file]</code></p>
+<p>查看暂存区文件修改内容</p>
+<p>$ git diff –cached [file]</p>
+<p>查看版本库修改记录</p>
+<p><code>$ git log</code></p>
+<p>查看某人提交记录</p>
+<p><code>$ git log --author=someone</code></p>
+<p>查看某个文件的历史具体修改内容</p>
+<p><code>$ git log -p [file]</code></p>
+<p>查看某次提交具体修改内容</p>
+<p><code>$ git show [commit]</code></p>
+<p>从 SVN 到 Git，除本文列举的基础概念和常用命令，包括但不限于如何从 SVN 服务器切换到 Git 服务器，分支模型管理等也非常重要。</p>
 
           
         
@@ -308,7 +430,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLElEQVR42u3aQY6DQAwFUe5/abKNFAH1bYiEu3oVMYHpx8Kx2942vPav9Xvl+/rR98+fnN5VXDJkyHgtYz9dfNOdLfL/e/gcGTJkLMAgm0hJJBAfXeF7kyFDhox0QyStJEFWhgwZMvoBlyR/KT59NTJkyFiNQYpYHo75gV2aht5Qi8uQIeOFDH7q/v/Pj/Q3ZMiQ8SrGHq7a0RsJl3tjyZAhYzbjrsSOlMRPjGjIkCFjBUY6JEGOxnjByZugF+MdMmTIGM3otxJr4xe18H3BkyFDxlBGLbCmrQKS8HUSTRkyZKzJIKMSndSQp5goBMuQIWMZBh/kSsMi3y6/svHYL0OGjHGM2sgFD8e1gHvxWYYMGaMZfLsEkB7u115W8EwZMmSMYLQOuXAjs5MmovaDDBkyRjPSliRvGNTu5QE9yGRlyJDxckbtKL82osFL3OKwhQwZMkYz0pKSJ4IkNaxV2yjDlSFDxggGv/musbC0rK29AhkyZExl8JYkH+TqtCfT+lSGDBmzGelG02CaJovp0Z4MGTLWYfAk77lWZad5IEOGjJUZaVisNUfTxmqQ28qQIePljD1cJCiThmW/OSpDhox1GJ1BsVojs99gQL8hMmTIGMfgx21pWAz6Ev2AK0OGjAUY59fvCou8/ZnuVoYMGTLSdmY/gMZ/lSFDhgw88lUra2uF7sWwhQwZMsYx+IFa2mgkobNzlwwZMlZg1ErHtOWZJn/9FyRDhowRjA8qXpNhX+IiYwAAAABJRU5ErkJggg==" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3aUWrDMBQEwN7/0i70q5BG2ZWcQqTRVzGOo3FgK72nr694XD8jufJ7PN45vufx+s0DAwPjYxnXcKwwxpj8FYyfjIGBcQ5jHLLPHv1sKnk2Jt+V/APAwMDASKZ4BWM9mjEwMDCSwI0eGgRrcgUDAwOj3cTmV/LN58ozMTAwzmG0jYH//PuN/Q0MDIwPYVxTY72T2LYWXjwTAwNja0Zb0F/fss4dy4iCGAMDY1NG0obMi2V5aWz84tomBAYGxjmMNv7yIM7bAOM4fvopDAyMAxjtMYg8QJOwzkP/xdIQAwPjAMZdxyDqQxLLZTsMDIy9GXkJLC/0z4Vvu5SsfxkMDIwPZyRRe9d6bC7cMTAwTmYkxbVkS9lGcHu9rhpiYGBsx5ibaLuUHE9l5dgZBgbGaYy6KB+X3uaOfxXHwjAwMDZlzLUMx+B245p8KirPYWBgbMqYm2gSgneV1eq9OAYGxnaMZGO5fjAij++b17wYGBgbMZKDEfkUV95leycGBsZpjLllX7v4K/bW+Yk2DAyMIxlte3L9FeTFuyJwMTAwNmK0Nfa74vXt4YuBgbEF4ypHuzScK8MlIY6BgXEOo425dxwpy5sTefsTAwNjP0a7KW2D+B2Bi4GBcSajDb4kTNtNb759xcDAwFhfXebLxLnY/ePbMTAwMKaWg3njYS6sMTAwTmOsHLNoy2eT29S2t4mBgbERY65YP9dibO9Z2UJjYGBswfgGvs/RP8gV0+8AAAAASUVORK5CYII=" alt="微信分享二维码">
     </div>
 </div>
 
@@ -322,18 +444,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/07/25/Vue-blog/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/09/13/markdown/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Vue学习笔记
+          Markdown 新手入门
         
       </div>
     </a>
   
   
-    <a href="/2018/07/22/my-first-blog/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">My-First-Post</div>
+    <a href="/2019/09/13/hexo环境搭建/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo+Github环境搭建</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -360,7 +482,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#如何上传文章"><span class="toc-number">1.</span> <span class="toc-text">如何上传文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#一-Git-和-SVN-孰优孰好？"><span class="toc-number">1.</span> <span class="toc-text">一 Git 和 SVN 孰优孰好？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二-git核心概率"><span class="toc-number">2.</span> <span class="toc-text">二 git核心概率</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#三-Git-SVN常用命令"><span class="toc-number">3.</span> <span class="toc-text">三 Git-SVN常用命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#四-初始化"><span class="toc-number">4.</span> <span class="toc-text">四 初始化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#五-配置"><span class="toc-number">5.</span> <span class="toc-text">五 配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#六-增删文件"><span class="toc-number">6.</span> <span class="toc-text">六 增删文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#七-分支"><span class="toc-number">7.</span> <span class="toc-text">七 分支</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#九-拉取"><span class="toc-number">8.</span> <span class="toc-text">九 拉取</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#十一-查询"><span class="toc-number">9.</span> <span class="toc-text">十一 查询</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -376,7 +498,7 @@
   
 
   
-  <div id="SOHUCS" sid="hello-world" ></div> 
+  <div id="SOHUCS" sid="git与svn" ></div> 
 <script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
