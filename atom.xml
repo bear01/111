@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://bear01github.io/"/>
-  <updated>2018-11-25T14:27:44.017Z</updated>
+  <updated>2019-05-05T12:00:17.648Z</updated>
   <id>http://bear01github.io/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>个人必备</title>
-    <link href="http://bear01github.io/2019/09/13/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/"/>
-    <id>http://bear01github.io/2019/09/13/必备软件/</id>
-    <published>2019-09-13T02:37:07.850Z</published>
-    <updated>2018-11-25T14:27:44.017Z</updated>
-    
-    <content type="html"><![CDATA[<p>作为一个菜鸟级别程序员，这里介绍一下我的一些常用软件</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><ol><li>window10 专业版</li><li>虚拟机</li></ol><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><ol><li>office 2016</li></ol><h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><ol><li>TIM</li><li>Wechat</li></ol><h2 id="娱乐"><a href="#娱乐" class="headerlink" title="娱乐"></a>娱乐</h2><ol><li>网易云音乐</li><li>英雄联盟</li><li>刺激战场</li></ol><h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><ol><li>chrome</li></ol><h2 id="编译器"><a href="#编译器" class="headerlink" title="编译器"></a>编译器</h2><ol><li>vs code</li><li>sublime</li><li>webstorm</li></ol><h2 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h2><ol><li>Typora</li><li>nodepad++</li></ol><h2 id="管理"><a href="#管理" class="headerlink" title="管理"></a>管理</h2><ol><li>git</li><li>GitHub</li></ol><h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><ol><li><a href="http://www.bear9596.club" target="_blank" rel="noopener">www.bear9596.club</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      个人必备
-    
-    </summary>
-    
-    
-      <category term="随笔" scheme="http://bear01github.io/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
   
   <entry>
     <title>windows解锁网易云音乐部分音乐变灰歌曲</title>
@@ -177,6 +157,26 @@
   </entry>
   
   <entry>
+    <title>个人必备</title>
+    <link href="http://bear01github.io/2018/10/01/%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6/"/>
+    <id>http://bear01github.io/2018/10/01/必备软件/</id>
+    <published>2018-09-30T16:00:00.000Z</published>
+    <updated>2019-09-27T06:11:57.034Z</updated>
+    
+    <content type="html"><![CDATA[<p>作为一个菜鸟级别的计算机系学生，这里介绍一下我的一些常用软件</p><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><blockquote><p><strong>window10 专业版</strong><br>    window系统是直接从win8开始的，所以对于win7系统，用起来有点不习惯，当然现在基本都是win10系统，对于系统的安装，算是非常的熟练了，不管什么系统，或者遇到什么问题，基本都能解决，这么多年来，给自己，给别人装过的系统不计其数<br><strong>ubuntu</strong><br>    Linux的系统也是有在使用，用的最多的就是Ubuntu这种有界面的版本，用起来比较方便，所以，如如果不是超级大佬，我觉没有必要去安装那种只有命令行的linux</p></blockquote><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p><strong>office 2016</strong><br>    相比wps，还是更喜欢用office，wps感觉界面有点花里胡哨，没有office这么干净，office我比较喜欢用比较新一点的版本，一是兼容性好一些，而是功能要多点，2016有个屏幕录制功能，这个还比较实用。</p></blockquote><h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><blockquote><p><strong>TIM</strong><br><strong>Wechat</strong><br>    两款常用的社交软件</p></blockquote><h2 id="娱乐"><a href="#娱乐" class="headerlink" title="娱乐"></a>娱乐</h2><blockquote><p><strong>网易云音乐</strong><br>    由于一直使用的网易云音乐，用习惯了便喜欢了，听歌也是放松的一种放松<br> <strong>英雄联盟</strong><br>    本科的时候成功入坑，但现在玩的越来越少了，有的时候和几个朋友组队开黑玩一玩</p></blockquote><h2 id="浏览器"><a href="#浏览器" class="headerlink" title="浏览器"></a>浏览器</h2><blockquote><p><strong>chrome</strong><br>    计算机专业出生，那么谷歌浏览器必然少不了，强大的兼容性，简洁的界面设计，没有启动网页，没有无关的广告栏，收藏栏，插件，Google的设计就是一切都从简，但是这对于一位程序员来说，不就是最棒的选择？对我来说，越简洁越喜欢</p></blockquote><h2 id="编译器"><a href="#编译器" class="headerlink" title="编译器"></a>编译器</h2><blockquote><p><strong>sublime</strong><br>    Sublime Text 是收费软件，但可以无限期试用，不管是写代码，还是文本都非常好用，最重要的是它有着强大的扩展功能。体积小，速度快，文本功能强大。这个编译器我主要是拿来写一下小程序，比如写一个小的网络爬虫，脚本；还有就是用来分析、了解项目，很方便，因为把项目直接拖进来就可以了，而且速度很快</p></blockquote><blockquote><p><strong>webstorm</strong><br>    是jetbrains公司旗下一款JavaScript 开发工具。这是一个适合做前端的编译器，被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等荣誉称号，我在实习的时候做前端便用的这个编译器。</p></blockquote><blockquote><p><strong>eclipse</strong><br>    这个不用说，就是用来写Java项目的。java现在很多人都在用IDEA，因为IDEA特别方便，效率高，但是我觉得在学习阶段还是用eclipse比较好，工作阶段再用IDEA</p></blockquote><h2 id="记事本"><a href="#记事本" class="headerlink" title="记事本"></a>记事本</h2><blockquote><p><strong>Typora</strong><br>    Typora是一款轻便简洁的Markdown编辑器,支持即时渲染技术,这也是与其他Markdown编辑器最显著的区别，什么是即时渲染？即时渲染技术使得你写Markdown就像是写Word文档一样流畅,不像其他编辑器的有工具栏。另外就是这种简洁的界面是我比较喜欢的，同时也是因为它是免费的编辑器。我主要用这个写博客，在编辑器里面写太麻烦了，而且没有即时渲染这种效果。</p></blockquote><blockquote><p><strong>nodepad++</strong><br>    Nodepad ++是一个很好用的记事本工具。轻巧、打开文本速度要比windows内置的记事本快，而且功能众多。我主要是用来查看一些文件代码，有代码高亮和格式调整，比记事本方便太多</p></blockquote><h2 id="管理"><a href="#管理" class="headerlink" title="管理"></a>管理</h2><blockquote><p><strong>git</strong><br>    Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。程序员是比较典型的需要团队协作的职业，大多数情况下，都是需要多个程序员同时开发同一个项目的，就好像多个程序员要同时修改一份word文档一样。所以，Git就是很多程序员的必备工具。</p></blockquote><blockquote><p><strong>GitHub</strong><br>    GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git作为唯一的版本库格式进行托管，故名GitHub。在GitHub，我们可以十分轻易地找到海量的开源代码，是最大的开源社区。我们也可恶意搭建个人网站，上传个人项目，作为自己的一个远程仓库。</p></blockquote><h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><blockquote><p><a href="http://www.bear9596.club" target="_blank" rel="noopener">www.bear9596.club</a><br>    在本科刚毕业的时候，闲来无事，自己捣鼓的做了一个博客，用的hexo，模板是网上找的，自己拿过来进行修改过后，变成了自己的博客网站，网站其实就是一个静态的，没有后台数据，每篇博客都会生产一个网页文档。我把网站部署在github上的，毕竟服务器太贵了，买不起。现在在计划做一个动态的博客网站，希望能做出来。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      个人必备
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="http://bear01github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日记本---2018</title>
     <link href="http://bear01github.io/2018/09/13/Record-the-life/"/>
     <id>http://bear01github.io/2018/09/13/Record-the-life/</id>
@@ -201,9 +201,9 @@
     <link href="http://bear01github.io/2018/09/12/system-setup/"/>
     <id>http://bear01github.io/2018/09/12/system-setup/</id>
     <published>2018-09-12T15:30:53.000Z</published>
-    <updated>2018-09-16T05:10:55.947Z</updated>
+    <updated>2019-09-25T03:37:48.534Z</updated>
     
-    <content type="html"><![CDATA[<p>操作系统在网上有很多镜像，这里推荐我自己用的系统下载地址，我的系统是在msdn下载的（msdn.itellyou.cn），也可以百度“我告诉你”或者“I tell you” ，这个网址上的系统算是纯净版了，而且系统版本很多，也支持多种语言的版本，有什么疑问可以给我留言，激活软甲找不到，可以留下你的邮箱</p><h2 id="系统下载"><a href="#系统下载" class="headerlink" title="系统下载"></a>系统下载</h2><p>下载地址：msdn.itellyou.cn（我告诉你）<br>下载步骤：一张图搞定，第五步复制链接后用迅雷下载即可！<br><img src="/assets/load.png" alt></p><h2 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h2><p>前期准备：准备一个容量不小于8G的u盘，保证U盘上没有什么重要文件，为了防止后面拷贝大文件出现问题，请先将u盘格式化,如图，文件系统一定要选择NTFS，其他默认即可。<br><img src="/assets/geshihua.png" alt><br>下面两种方法选择一种即可，第一种方法系统安装完成后特别纯净，桌面就一个回收站，第二种方法，由于启动盘工具绑定了一些软件，系统安装完成后，会自动安装一些软件。如果是小小白，推荐第二种方法，装系统过程中出现的问题要少一些</p><h3 id="方法一：使用UltraISO软碟通"><a href="#方法一：使用UltraISO软碟通" class="headerlink" title="方法一：使用UltraISO软碟通"></a>方法一：使用UltraISO软碟通</h3><ol><li>百度UltraIS下载软件并安装</li><li>选择试用打开软件</li><li>点击文件-&gt;打开，找到自己下载的ios系统镜像</li><li>点击启动-&gt;写入硬盘镜像</li><li>点击硬盘驱动器，选择插入的U盘，其他默认即可</li><li>点击写入（会自动格式化u盘，重要文件提前备份到电脑上）</li><li>等进度条100%刻录便完成，这个U盘就可以用来装系统了</li><li>关机，连续按快捷启动键，一般都是F12，不同笔记本可能有区别，可以根据自己电脑型号百度查询，进入快捷启动界面后，选择U盘对应的那项回车，就会进入安装界面</li><li>出现安装界面后根据提示完成安装即可</li></ol><h3 id="方法二：使用u盘启动盘制作工具"><a href="#方法二：使用u盘启动盘制作工具" class="headerlink" title="方法二：使用u盘启动盘制作工具"></a>方法二：使用u盘启动盘制作工具</h3><p>U盘启动盘制作工具网上有很多，如：大白菜、老毛桃、U大师等等</p><ol><li>百度上面任意一个制作工具，如老毛桃，进入官网，下载装机版并安装到电脑上</li><li>打开老毛桃u盘启动盘制作工具后，将u盘插入电脑usb接口，程序会自动扫描，我们只需在下拉列表中选择用于制作的u盘，然后点击“一键制作”按钮即可，如下图所示：<br><img src="/assets/zhizuo.jpg" alt><br>此时会弹出一个警告框，提示“警告：本操作将会删除 I：盘上的所有数据，且不可恢复”。在确认已经将重要数据做好备份的情况下，我们点击“确定”即可，等待几分钟后即可完成启动盘的制作</li><li>把下载好的系统文件复制到u盘里的ISO文件下。至此！这个u盘就可以拿来装系统了</li><li>关机，连续按快捷启动键，一般都是F12，不同笔记本可能有区别，可以根据自己电脑型号百度查询，进入快捷启动界面后，选择U盘对应的那项回车<br><img src="/assets/F12.png" alt></li><li>进入pe界面后，选择win8PE标准版，回车<br><img src="/assets/1.png" alt></li><li>进入pe系统后会弹出如下窗口,点击浏览，找到之前拷贝到u盘的系统文件确定<br><img src="/assets/2.png" alt></li><li>如图，选择专业版，再选择c盘，点击确认<br><img src="/assets/4.png" alt></li><li>后面的操作默认，点击确认即可，等待安装，大约十几分钟，系统安装完成后会自动重启，安装便完成</li></ol><h2 id="系统激活"><a href="#系统激活" class="headerlink" title="系统激活"></a>系统激活</h2><p>系统激活非常简单，这里我推荐一款非常好用的激活软件 《MicroKMS神龙版》 可以百度“亦是美网站” 里面有下载地址<br>下载后不需要安装，直接打开软件，点击激活windows10/8/7ALL就ok了， 激活时间只有180，到期再次激活即可<br><img src="/assets/12.png" alt></p><p>激活后你的系统就可以正常使用了，安装步骤很简单，几步就可以搞定！</p>]]></content>
+    <content type="html"><![CDATA[<p>操作系统在网上有很多镜像，这里推荐我自己用的系统下载地址，我的系统是在msdn下载的（msdn.itellyou.cn），也可以百度“我告诉你”或者“I tell you” ，这个网址上的系统算是纯净版了，而且系统版本很多，也支持多种语言的版本</p><h2 id="系统下载"><a href="#系统下载" class="headerlink" title="系统下载"></a>系统下载</h2><p>下载地址：msdn.itellyou.cn（我告诉你）<br>下载步骤：一张图搞定，第五步复制链接后用迅雷下载即可！<br><img src="/assets/load.png" alt></p><h2 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h2><p>前期准备：准备一个容量不小于8G的u盘，保证U盘上没有什么重要文件，为了防止后面拷贝大文件出现问题，请先将u盘格式化,如图，文件系统一定要选择NTFS，其他默认即可。<br><img src="/assets/geshihua.png" alt><br>下面两种方法选择一种即可，第一种方法系统安装完成后特别纯净，桌面就一个回收站，第二种方法，由于启动盘工具绑定了一些软件，系统安装完成后，会自动安装一些软件。如果是小小白，推荐第二种方法，装系统过程中出现的问题要少一些</p><h3 id="方法一：使用UltraISO软碟通"><a href="#方法一：使用UltraISO软碟通" class="headerlink" title="方法一：使用UltraISO软碟通"></a>方法一：使用UltraISO软碟通</h3><ol><li>百度<a href="https://cn.ultraiso.net/" target="_blank" rel="noopener">UltraIS</a>下载软件并安装</li><li>选择试用打开软件</li><li>点击文件-&gt;打开，找到自己下载的ios系统镜像</li><li>点击启动-&gt;写入硬盘镜像</li><li>点击硬盘驱动器，选择插入的U盘，其他默认即可</li><li>点击写入（会自动格式化u盘，重要文件提前备份到电脑上）</li><li>等进度条100%刻录便完成，这个U盘就可以用来装系统了</li><li>关机，连续按快捷启动键，一般都是F12，不同笔记本可能有区别，可以根据自己电脑型号百度查询，进入快捷启动界面后，选择U盘对应的那项回车，就会进入安装界面</li><li>出现安装界面后根据提示完成安装即可<br><a href="https://ksv-video-publish.cdn.bcebos.com/962b926f38ad6d28d6d736627c32341afee580d8.mp4?auth_key=1860067285-0-0-d87ccaec73fd35b8a8e68a46b89e3eae" target="_blank" rel="noopener">制作视频</a> </li></ol><h3 id="方法二：使用u盘启动盘制作工具"><a href="#方法二：使用u盘启动盘制作工具" class="headerlink" title="方法二：使用u盘启动盘制作工具"></a>方法二：使用u盘启动盘制作工具</h3><p>U盘启动盘制作工具网上有很多，如：大白菜、老毛桃、U大师等等</p><ol><li>百度上面任意一个制作工具，如老毛桃，进入官网，下载装机版并安装到电脑上</li><li>打开老毛桃u盘启动盘制作工具后，将u盘插入电脑usb接口，程序会自动扫描，我们只需在下拉列表中选择用于制作的u盘，然后点击“一键制作”按钮即可，如下图所示：<br><img src="/assets/zhizuo.jpg" alt><br>此时会弹出一个警告框，提示“警告：本操作将会删除 I：盘上的所有数据，且不可恢复”。在确认已经将重要数据做好备份的情况下，我们点击“确定”即可，等待几分钟后即可完成启动盘的制作</li><li>把下载好的系统文件复制到u盘里的ISO文件下。至此！这个u盘就可以拿来装系统了</li><li>关机，连续按快捷启动键，一般都是F12，不同笔记本可能有区别，可以根据自己电脑型号百度查询，进入快捷启动界面后，选择U盘对应的那项回车<br><img src="/assets/F12.png" alt></li><li>进入pe界面后，选择win8PE标准版，回车<br><img src="/assets/1.png" alt></li><li>进入pe系统后会弹出如下窗口,点击浏览，找到之前拷贝到u盘的系统文件确定<br><img src="/assets/2.png" alt></li><li>如图，选择专业版，再选择c盘，点击确认<br><img src="/assets/4.png" alt></li><li>后面的操作默认，点击确认即可，等待安装，大约十几分钟，系统安装完成后会自动重启，安装便完成</li></ol><h2 id="系统激活"><a href="#系统激活" class="headerlink" title="系统激活"></a>系统激活</h2><p>系统激活非常简单，这里我推荐一款非常好用的激活软件 《MicroKMS神龙版》 可以百度“亦是美网站” 里面有下载地址<br>下载后不需要安装，直接打开软件，点击激活windows10/8/7ALL就ok了， 激活时间只有180，到期再次激活即可<br><img src="/assets/12.png" alt></p><p>激活后你的系统就可以正常使用了，安装步骤很简单，几步就可以搞定！</p>]]></content>
     
     <summary type="html">
     
