@@ -6,20 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://bear01github.io">
-  <title>三步完成文章上传 | bear</title>
+  <title>Hexo+Github环境搭建 | bear</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="参观智博会的一些感想">
+  <meta name="description" content="如何创建一个hexo博客">
 <meta name="keywords" content="学习">
 <meta property="og:type" content="article">
-<meta property="og:title" content="三步完成文章上传">
-<meta property="og:url" content="http://bear01github.io/2018/07/25/hello-world/index.html">
+<meta property="og:title" content="Hexo+Github环境搭建">
+<meta property="og:url" content="http://bear01github.io/2018/07/26/hexo环境搭建/index.html">
 <meta property="og:site_name" content="bear">
-<meta property="og:description" content="参观智博会的一些感想">
+<meta property="og:description" content="如何创建一个hexo博客">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-06T16:24:59.272Z">
+<meta property="og:image" content="c:/Users/bear/Desktop/blog/source/assets/hexo.png">
+<meta property="og:image" content="c:/Users/bear/Desktop/blog/source/assets/create%20repository.png">
+<meta property="og:image" content="c:/Users/bear/Desktop/blog/source/assets/yuming.png">
+<meta property="og:updated_time" content="2019-09-27T06:18:36.488Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="三步完成文章上传">
-<meta name="twitter:description" content="参观智博会的一些感想">
+<meta name="twitter:title" content="Hexo+Github环境搭建">
+<meta name="twitter:description" content="如何创建一个hexo博客">
+<meta name="twitter:image" content="c:/Users/bear/Desktop/blog/source/assets/hexo.png">
   
     <link rel="alternative" href="/atom.xml" title="bear" type="application/atom+xml">
   
@@ -171,20 +175,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-hexo环境搭建" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      三步完成文章上传
+      Hexo+Github环境搭建
     </h1>
   
 
         
-        <a href="/2018/07/25/hello-world/" class="archive-article-date">
-  	<time datetime="2018-07-25T10:30:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-25</time>
+        <a href="/2018/07/26/hexo环境搭建/" class="archive-article-date">
+  	<time datetime="2018-07-26T10:30:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-26</time>
 </a>
          
         <span class="archive-article-date">
@@ -199,15 +203,48 @@
       
           
           
-            <p>Welcome to <a href="https://www.bear9596.club/" target="_blank" rel="noopener">bear个人网站</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using, you can find the answer in <a href="https://www.bear9596.club" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/bear01/bear01.github.io" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="如何上传文章"><a href="#如何上传文章" class="headerlink" title="如何上传文章"></a>如何上传文章</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <p>在这里简单介绍一下我们如何来搭建一个hexo博客，其实很简单，按照下面的步骤，几分钟就可以搞完。写这个一是为了方便自己随时搭建环境，二是为了分享给大家，希望对大家有所帮助</p>
+<h3 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h3><ol>
+<li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git下载</a></li>
+<li><a href="http://nodejs.cn/download/" target="_blank" rel="noopener">node.js下载</a></li>
+</ol>
+<h3 id="git安装"><a href="#git安装" class="headerlink" title="git安装"></a>git安装</h3><p>和常用软件安装一样，傻瓜式安装，安装路径最好默认c盘，然后一直点next就行。安装完成后，右键菜单会出现git bush ,选择就可以进入git终端</p>
+<h3 id="node-js安装"><a href="#node-js安装" class="headerlink" title="node.js安装"></a>node.js安装</h3><p>也是傻瓜式安装，一路next</p>
+<p>打开git bush 验证安装是否正确</p>
+<p><code>node -v</code><br><code>npm -v</code></p>
+<p>Hexo基于Node.js环境，Node.js是一个Javascript运行环境(runtime) 。node.js自带了<a href="https://www.npmjs.cn/" target="_blank" rel="noopener">npm</a>,这里就不在讲述npm的安装</p>
+<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>安装好Node.js环境后，就可以通过node的npm包管理工具安装Hexo，打开git bush 执行以下指令(当然npm可以换成cnpm，但要配置<a href="https://npm.taobao.org/" target="_blank" rel="noopener">淘宝加速</a>) </p>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br><span class="line">   </span><br><span class="line">   &apos;&apos;&apos;</span><br></pre></td></tr></table></figure>
+<p>成功安装Hexo后，在自己的工作目录下，创建一个blog目录，在此目录下管理自己的博客源码，进入blog目录，执行以下指令完成Hexo项目环境 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<p>hexo初始化会在blog目录生成一些东西 ,这里我不介绍生成的这些文件</p>
+<p>安装依赖包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>这里我们的本地环境就基本搭建完成</p>
+<p>生成hexo博客</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g // 生成静态页面</span><br><span class="line">hexo s // 启动本地服务</span><br></pre></td></tr></table></figure>
+<p>打开浏览器，输入 <a href="https://link.jianshu.com/?t=http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ，看到以下页面说明hexo环境安装成功。 </p>
+<p><img src="C:\Users\bear\Desktop\blog\source\assets\hexo.png" alt></p>
+<h3 id="hexo部署到github"><a href="#hexo部署到github" class="headerlink" title="hexo部署到github"></a>hexo部署到github</h3><p>上面我们只能在本地进行浏览，别人无法看到你的博客，如果自己没有服务器，那我们可以将博客部署到<a href="https://github.com/" target="_blank" rel="noopener">github</a>，github有免费的存储空间</p>
+<h4 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h4><p>首先需要注册一个github账号，登录github后点击create a new repository,如图完成仓库创建</p>
+<p><img src="C:\Users\bear\Desktop\blog\source\assets\create repository.png" alt></p>
+<p>这个仓库是用来存放你的hexo静态页面的，相对于服务器</p>
+<h4 id="部署公钥"><a href="#部署公钥" class="headerlink" title="部署公钥"></a>部署公钥</h4><p>Hexo部署时，采用git协议，为避免暴露账户密码，最好使用证书认证，所以我们需要在Github部署公钥 </p>
+<p>进入账号的<code>Personal setting</code>页面，选择<code>SSH and GPG keys</code>，进入密钥配置页面。填入本机公钥，点击<code>Add SSH key</code> </p>
+<p><a href="https://www.cnblogs.com/yehui-mmd/p/5962254.html" target="_blank" rel="noopener">如何生成本机公钥</a></p>
+<h4 id="发布站点"><a href="#发布站点" class="headerlink" title="发布站点"></a>发布站点</h4><p>首先，打开blog目录下的<code>_config.yml</code>，找到deploy段，配置成这样 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>注意将代码里面的yourname换成你github账号的username。 </p>
+<p>设置git身份信息，避免每次部署都需要身份验证</p>
+<p>打开git bush </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的github用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p>最后我们就可以部署hexo了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<p>等待一会，浏览器打开 <a href="https://link.jianshu.com/?t=https://yourname.github.io" target="_blank" rel="noopener">https://yourname.github.io</a> 就可以看到刚才本地预览页面。 </p>
+<p>我们也可以给博客网站搞一个域名，其实很简单，首先你必须有一个域名，没有的话，自己买一个。</p>
+<p>有了域名后，进入域名控制台，在解析里面添加一条CNAME记录，指向<code>yourname.github.io</code>即可。</p>
+<p><img src="C:\Users\bear\Desktop\blog\source\assets\yuming.png" alt> 到blog/source目录下创建一个CNAME文件（不要后缀名），打开文件添加你要绑定的域名保存。重新部署即可</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以上的内容就是我自己在部署hexo博客的时候进行的步骤，当然，新手在开始搭建博客的时候肯定会出现很多问题，不过，有问题是很正常的，也是值得庆幸的，因为你在解决这个问题的过程中，你会发现你懂得越来越多。相反，如果你照着别人给的步骤完美的完成了博客搭建，其实很多步骤，你根本不知道是如何实现的。多动手，解决问题后总有那么一点成就感的。</p>
 
           
         
@@ -308,7 +345,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLElEQVR42u3aQY6DQAwFUe5/abKNFAH1bYiEu3oVMYHpx8Kx2942vPav9Xvl+/rR98+fnN5VXDJkyHgtYz9dfNOdLfL/e/gcGTJkLMAgm0hJJBAfXeF7kyFDhox0QyStJEFWhgwZMvoBlyR/KT59NTJkyFiNQYpYHo75gV2aht5Qi8uQIeOFDH7q/v/Pj/Q3ZMiQ8SrGHq7a0RsJl3tjyZAhYzbjrsSOlMRPjGjIkCFjBUY6JEGOxnjByZugF+MdMmTIGM3otxJr4xe18H3BkyFDxlBGLbCmrQKS8HUSTRkyZKzJIKMSndSQp5goBMuQIWMZBh/kSsMi3y6/svHYL0OGjHGM2sgFD8e1gHvxWYYMGaMZfLsEkB7u115W8EwZMmSMYLQOuXAjs5MmovaDDBkyRjPSliRvGNTu5QE9yGRlyJDxckbtKL82osFL3OKwhQwZMkYz0pKSJ4IkNaxV2yjDlSFDxggGv/musbC0rK29AhkyZExl8JYkH+TqtCfT+lSGDBmzGelG02CaJovp0Z4MGTLWYfAk77lWZad5IEOGjJUZaVisNUfTxmqQ28qQIePljD1cJCiThmW/OSpDhox1GJ1BsVojs99gQL8hMmTIGMfgx21pWAz6Ev2AK0OGjAUY59fvCou8/ZnuVoYMGTLSdmY/gMZ/lSFDhgw88lUra2uF7sWwhQwZMsYx+IFa2mgkobNzlwwZMlZg1ErHtOWZJn/9FyRDhowRjA8qXpNhX+IiYwAAAABJRU5ErkJggg==" alt="微信分享二维码">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACNUlEQVR42u3ay27DMAxE0fz/T7tAVwXcWHdIu2ioq1UQ5KHjxYAU9XrhdXyv8+uf75w/c36f/PL151tLhgwZH8s4LhdhkA31YYtfkCFDxgaMe6OQBPT1o+R7kyFDhow0cAmeRLMMGTJk9AO3Fppp6SlDhgwZaRNL2kt+JkYKx0d6cRkyZHwgo9OUPv36j+YbMmTI+MeMI1z8d2qxW1syZMiYzeAH9yQiO+0r+dYijmXIkDGUwQu19NA/Dd90dPo2amXIkDGUkY4n+XiAPyDevr4tCmXIkDGUQb5MGs5akcdjuljhypAhYxyDlHT3NqI8xBFJhgwZQxl8u/1WlocpOeyTIUPGPgx+pFX7Ax6d6fUL1JHLkCFjBCPdetqgpkMC3rLKkCFjTwb/mzRwUwa/9iFDhox9GJ3jsH6bSkrAoLaVIUPGaAZvPnnDmR7Ppf/yS+DKkCFjHKMWeZ3tkisd6bBBhgwZOzDSsixtetPikg8YZMiQsRuDhGDK7jeu/NKGDBkypjLSlrJ2YYIf26WPQIYMGfsw0oROr4vxi7Acv+jCZciQMYhBBpn8OgWPbBSj6ZGcDBkyhjKOcJExAB9Y8qseiyM/GTJkjGbwxYs/PsJMN1qLaRkyZMxgdJrMJ4agZA9B5ShDhoxBDH7xq3Ztop/9i8ckQ4YMGbgRJU1pOhIIBgMyZMiQgUP53iHB9UOUIUPGPozaMKBWRKYXNVDpKUOGjNGM/mCAH+LXjuTSRyBDhoxBjC+PQYmHs3MWUAAAAABJRU5ErkJggg==" alt="微信分享二维码">
     </div>
 </div>
 
@@ -322,18 +359,18 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/07/25/Vue-blog/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/07/29/今天星期7/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          Vue学习笔记
+          今天星期日不上班
         
       </div>
     </a>
   
   
-    <a href="/2018/07/22/my-first-blog/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">My-First-Post</div>
+    <a href="/2018/07/25/Vue-blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Vue学习笔记</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -360,7 +397,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#如何上传文章"><span class="toc-number">1.</span> <span class="toc-text">如何上传文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#软件安装"><span class="toc-number">1.</span> <span class="toc-text">软件安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#git安装"><span class="toc-number">2.</span> <span class="toc-text">git安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#node-js安装"><span class="toc-number">3.</span> <span class="toc-text">node.js安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo安装"><span class="toc-number">4.</span> <span class="toc-text">Hexo安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#hexo部署到github"><span class="toc-number">5.</span> <span class="toc-text">hexo部署到github</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#创建仓库"><span class="toc-number">5.1.</span> <span class="toc-text">创建仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#部署公钥"><span class="toc-number">5.2.</span> <span class="toc-text">部署公钥</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#发布站点"><span class="toc-number">5.3.</span> <span class="toc-text">发布站点</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#总结"><span class="toc-number">6.</span> <span class="toc-text">总结</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -376,7 +413,7 @@
   
 
   
-  <div id="SOHUCS" sid="hello-world" ></div> 
+  <div id="SOHUCS" sid="hexo环境搭建" ></div> 
 <script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
